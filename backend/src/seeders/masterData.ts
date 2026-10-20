@@ -15,7 +15,14 @@ export interface TalukaSeed {
   gams: GamSeed[];
 }
 
+// Source: Official Patidar Panchal Seva Samaj document image (2025-2026)
+// "ઉત્તર ગુજરાતના તાલુકામાં પટીદાર પંચાળ સેવા સમાજ"
+// Gam counts (per image summary table):
+//   Palanpur=77, Vadgam=74, Deesa=27, Dantiwada=15, Danta=03, Dhanera=19, Siddhpur=24, Saraswati=21
 export const masterTalukasAndGams: TalukaSeed[] = [
+  // ─────────────────────────────────────────────────────────────
+  // 1. PALANPUR TALUKA  (District: Banaskantha)
+  // ─────────────────────────────────────────────────────────────
   {
     orderNo: 1,
     nameGu: 'પાલનપુર',
@@ -104,6 +111,9 @@ export const masterTalukasAndGams: TalukaSeed[] = [
       { orderNo: 77, nameGu: 'વેડંચા', nameEn: 'Vedancha' },
     ],
   },
+  // ─────────────────────────────────────────────────────────────
+  // 2. VADGAM TALUKA  (District: Banaskantha)
+  // ─────────────────────────────────────────────────────────────
   {
     orderNo: 2,
     nameGu: 'વડગામ',
@@ -189,6 +199,9 @@ export const masterTalukasAndGams: TalukaSeed[] = [
       { orderNo: 74, nameGu: 'વેસા', nameEn: 'Vesa' },
     ],
   },
+  // ─────────────────────────────────────────────────────────────
+  // 3. DEESA TALUKA  (District: Banaskantha)
+  // ─────────────────────────────────────────────────────────────
   {
     orderNo: 3,
     nameGu: 'ડીસા',
@@ -227,6 +240,9 @@ export const masterTalukasAndGams: TalukaSeed[] = [
       { orderNo: 27, nameGu: 'વિઠોદર', nameEn: 'Vithodar' },
     ],
   },
+  // ─────────────────────────────────────────────────────────────
+  // 4. DANTIWADA TALUKA (District: Banaskantha)
+  // ─────────────────────────────────────────────────────────────
   {
     orderNo: 4,
     nameGu: 'દાંતીવાડા',
@@ -253,6 +269,9 @@ export const masterTalukasAndGams: TalukaSeed[] = [
       { orderNo: 15, nameGu: 'વેળાવસ', nameEn: 'Velawas' },
     ],
   },
+  // ─────────────────────────────────────────────────────────────
+  // 5. DANTA TALUKA  (District: Banaskantha)
+  // ─────────────────────────────────────────────────────────────
   {
     orderNo: 5,
     nameGu: 'દાંતા',
@@ -267,6 +286,9 @@ export const masterTalukasAndGams: TalukaSeed[] = [
       { orderNo: 3, nameGu: 'મોટાસડા', nameEn: 'Motasada' },
     ],
   },
+  // ─────────────────────────────────────────────────────────────
+  // 6. DHANERA TALUKA  (District: Banaskantha)
+  // ─────────────────────────────────────────────────────────────
   {
     orderNo: 6,
     nameGu: 'ધાનેરા',
@@ -279,6 +301,9 @@ export const masterTalukasAndGams: TalukaSeed[] = [
       { orderNo: 1, nameGu: 'કુમોર', nameEn: 'Kumor' },
     ],
   },
+  // ─────────────────────────────────────────────────────────────
+  // 7. SIDDHPUR TALUKA  (District: Patan)
+  // ─────────────────────────────────────────────────────────────
   {
     orderNo: 7,
     nameGu: 'સિદ્ધપુર',
@@ -314,6 +339,9 @@ export const masterTalukasAndGams: TalukaSeed[] = [
       { orderNo: 24, nameGu: 'વાવડી', nameEn: 'Vavdi' },
     ],
   },
+  // ─────────────────────────────────────────────────────────────
+  // 8. SARASWATI TALUKA  (District: Patan)
+  // ─────────────────────────────────────────────────────────────
   {
     orderNo: 8,
     nameGu: 'સરસ્વતી',
